@@ -16,18 +16,7 @@
     text-align: center; 
 
 }
-/*
-.my-btn {
- background: #535652;
- border-color: #26221f;
- color: #f4f3f0;
-}
 
-.my-btn:hover {
- border-color: #C0C0C0;
- background-color: #828982;
-}
-*/
 .img-responsive {
  display: block;
 
@@ -39,21 +28,16 @@
  Padding: 10pt;
  display: inline-block;
 }
-/*
+
+.caption {
+    font-size: 18px;
+}
+
 .modal-content {
  padding-top: 10px;
  padding-right: 15px;
  position: relative;
 }
-
-.modal-bali {
-  max-height: calc(100% - 100px);
-  position: fixed;
-    top: 50%;
-    left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 
 
 #toggle {
@@ -63,86 +47,13 @@
  display: inline-block;
 }
 
-
-}
-
-html {
-  width: 100%;
-  height: 100%;
-  background: #1192d3 url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/austin-2.jpg) no-repeat bottom right;
-  background-size: cover;
-}
-
-body {
-  padding: 45px 0;
-  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
-
-
-i {
-  color: #fff;
-  font-family: weather;
-  font-size: 150px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.0;
-  text-transform: none;
-}
-
-
-
 #foot {
     margin-top: 10px;
     clear:both;
-    background-color: cyan;
+    
     background-size: cover;
-    text-align: center;
+    
     height: auto;
     padding-top:inherit;
     width: 100%;
 }
-.icon {
-    background: #262626;
-    margin: 0;
-    padding: 0;
-    
-}
-.icon ul {
-    display: flex;
-    text-align: center;
-    position: absolute;
-    
-    transform: translate(-50%, -50%);
-}
-.icon ul li {
-    background:#fff;
-    margin: 10px;
-    list-style: none;
-    font-size: 24px;
-    transition: .5s;
-}
-.icon ul li a {
-    width: 60px;
-    padding: 16px 0;
-    display: block;
-    color: #fff;
-}
-.icon ul li:nth-child(1) {
-    background: #3b5998;
-}
-.icon ul li:nth-child(2) {
-    background: #00ACED;
-}
-.icon ul li:nth-child(3) {
-    background: #BC2A8D;
-}
-.icon ul li:hover {
-    transform: translateY(-8px);
-    box-shadow:0 10px 10px rgba(0,0,0, .5);
-}
-#footer {
-    width: 100%;
-    height: 10%;
-}
-*/
